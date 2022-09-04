@@ -1,0 +1,26 @@
+First level: Укажите след. команды:
+
+для полной очистки индекса
+git reset
+
+для просмотра разницы между раб.каталогом и посл. коммитом
+git diff --cached
+
+для создания новой ветки и одновременного переключения в на нее
+git checkout -b develop
+
+для сравнения веток между собой
+git diff master feature
+
+для загрузки ветки develop на удаленный репозиторий (GITHUB)
+git push -u origin develop
+
+для удаления локальной ветки
+git branch -d develop
+
+для слияния веток
+git checkout master
+git merge develop
+
+для открытия (просмотра) файла по состоянию на какой-то коммит
+git show 2256:index.txt

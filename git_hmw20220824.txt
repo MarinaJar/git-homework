@@ -1,0 +1,16 @@
+
+
+создаём новую ветку с именем testing:
+
+$ git branch testing
+
+
+
+ переключаемся на существующую ветку testing:
+
+$ git checkout testing
+
+
+Одновременно создаём новую ветку и переключаемся на неё:
+
+$ git checkout -b <newbranchname>
